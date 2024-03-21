@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(../../assets/headerbg.png);
+    background-size: cover;
+    width: 100px;
+    min-width: 100%;
+    text-align: left;
+    height: auto;
+    overflow: hidden;
+    margin-top: 17px;
+    color: rgb(1, 17, 52);
+    
+}
+
+header .row{
+    margin: 50px 0;
+}
+
+header h2{
+    /* margin-top: 90px; */
+    font-size: 50px;
+}
+
+header p{
+    /* font-size: 25px; */
+    margin: 35px 0;
+    /* width: 100%; */
+}
+header button{
+    border: none;
+    height: 35px;
+    width: 120px;
+    font-size: 17px;
+}
+
+header .b-one{
+    margin-right: 15px;
+    background-color: rgb(10, 111, 178);
+    color: white;
+    border: 3px solid transparent;
+    transition-duration: 0.5s;
+
+}
+
+header .b-one:hover{
+    background-color: white;
+    border: 3px solid rgb(10, 111, 178);
+    color:  rgb(10, 111, 178);
+    transition: ease-in-out;
+    transition-duration: 0.35s;
+}
+
+header .b-two{
+    border: 1px solid transparent;
+    box-shadow: 1.5px 1.5px 5.5px grey;
+    background-color: white;
+    transition-duration: 0.2s;
+}
+
+header .b-two:hover{
+    color: rgb(10, 111, 178);
+    border: 3px solid rgb(10, 111, 178)!important;
+    transition: ease-in-out;
+    transition-duration: 0.1s;
+}

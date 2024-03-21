@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.products{
+    margin-top: 50px;
+    padding-top: 25px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    /* text-align: center; */
+}
+
+.products .box{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid white; 
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: 10px; 
+    border-radius: 10px;
+}
+
+
+.products .row:first-child{
+    text-align: center;
+    margin: 25px 0;
+    color: rgb(1, 17, 52);
+
+}
+
+
+.products h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 45px;
+    font-size: 50px;
+}
+
+.products p{
+    margin: 25px 0;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+
+
+
+
+.products .box img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+.products .box h5{
+  color: rgb(1, 17, 52);
+  font-size: 20px;
+  margin: 15px 0 0 0;
+  margin-left: 10px;
+
+}
+
+.products .box span{
+    display: block;
+    color: rgb(1, 17, 52);
+    font-size: 16px;
+    font-weight: 400;
+
+    /* margin-bottom: 5px; */
+}
+
+.products .box h6{
+    font-size: 25px;
+    margin: 10px;
+    color: rgb(1, 17, 52);
+    display: inline-block;
+    margin-right: 0;
+}
+
+.products .box .p_price{
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: line-through;
+    color: rgb(176, 185, 206);
+    display: inline-block;
+}
+
+
+.products .row button{
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(10, 111, 178);
+    color: white;
+    border: 3px solid transparent;
+    transition-duration: 0.5s;
+    height: 35px;
+    width: 120px;
+    font-size: 17px;
+    margin-left: 10px;
+}
+.products .row button:hover{
+    background-color: white ;
+    border: 3px solid rgb(10, 111, 178);
+    color:  rgb(10, 111, 178);
+    transition: ease-in-out;
+    transition-duration: 0.35s;
+}
+.products .row button a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.products .row button a:hover{
+    color: rgb(10, 111, 178);
+
+}
+
+.products h5,.products span, .products h6{
+    margin-left: 10px;
+}
+
+

@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+.subscripe{
+    height: 400px;
+    margin: 20px 0 40px;
+    padding-top: 55px;
+    background-color: white;
+    text-align: center;
+
+}
+
+
+.subscripe h2{
+    margin-top: 60px;
+    color: rgb(10, 111, 178);
+}
+
+.subscripe  p{
+    margin: 20px 0;
+    color: rgb(10, 111, 178);
+}
+
+.subscripe .btnn input{
+    margin-right: 15px;
+    width: 250px;
+    height: 35px;
+    outline: none;
+    border: 2px solid silver;
+    padding: 5px;
+}
+.subscripe .btnn button {
+    margin-right: 15px;
+    background-color: rgb(10, 111, 178);
+    color: rgb(10, 111, 178);
+    border: 3px solid transparent;
+    transition-duration: 0.5s;
+    height: 35px;
+    width: 120px;
+    font-size: 17px;
+}
+.subscripe .btnn button:hover {
+    background-color: white ;
+    border: 3px solid rgb(10, 111, 178);
+    color:  rgb(10, 111, 178);
+    transition: ease-in-out;
+    transition-duration: 0.35s;
+}
+.subscripe .btnn button a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.subscripe .btnn button a:hover{
+    color: rgb(10, 111, 178);
+
+}

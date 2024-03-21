@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.question{
+    margin: 50px 0;
+    padding: 30px 0;
+    background-color: rgb(10, 111, 178);
+    color: white;
+
+}
+
+
+
+.question h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    padding-left: 15px;
+}
+
+.question p{
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+/* cover*/
+
+.cover{
+    background-image: url(./../../assets/pexels-ella-olsson-1640774.jpg);
+    height: 260px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.cover .item{
+    padding-top: 90px;
+}
+
+.cover button{
+    /* margin-right: 15px; */
+    /* margin-top: 15px; */
+    padding-bottom: 15px;
+    background-color: rgb(10, 111, 178);
+    color: white;
+    border: 3px solid transparent;
+    transition-duration: 0.5s;
+    height: 35px;
+    width: 120px;
+    font-size: 17px;
+    margin-left: 10px;
+}
+.cover button:hover{
+    background-color: white ;
+    border: 3px solid rgb(10, 111, 178);
+    color:  rgb(10, 111, 178);
+    transition: ease-in-out;
+    transition-duration: 0.35s;
+}
+.cover button a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.cover button a:hover{
+    color: rgb(10, 111, 178);
+
+}

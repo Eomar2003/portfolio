@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+.social{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    background-color: rgb(10, 111, 178);
+    padding-top: 25px;
+    color: rgb(1, 17, 52);
+    overflow: hidden;
+
+}
+.social .sect{
+    margin-bottom: 15px;
+}
+
+.social .sect a{
+    margin: 0 35px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.social .sect a:hover{
+    text-decoration: underline;
+    color: rgb(1, 17, 52);
+
+}
+
+.social .icons{
+    margin: 20px 0 35px;
+}
+
+.social .icons i{
+    margin: 0 10px;
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(1, 17, 52);
+    cursor: pointer;
+}
+
+.social .icons .fa-facebook{
+    color: #0051ff;
+}
+.social .icons .fa-square-x-twitter{
+    color: #000000;
+}
+.social .icons .fa-youtube{
+    color:  #ff0000;
+}
+.social .icons .fa-square-whatsapp{
+    color: #25d366;
+}
+.social .icons .fa-linkedin{
+    color: #0f76dd;
+}
+.social .icons .fa-square-instagram{
+    color: #c32aa3;
+}
+
+.social span{
+    font-size: 14px;
+}

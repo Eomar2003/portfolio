@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.ingr{
+    margin-top: 50px;
+    max-width: 100%;
+    height: auto;
+    text-align: left;
+    /* overflow: hidden; */
+}
+
+.ingr .ingr_text{
+    color: rgb(1, 17, 52);
+
+}
+.ingr .ingr_text h2 ,
+.watch h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 45px;
+    font-size: 50px;
+    width: 80%;
+}
+
+.ingr .ingr_text p ,
+.watch p{
+    margin: 25px 0;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+.ingr .ingr_text ul{
+ padding: 0px;
+}
+.ingr .ingr_text ul li{
+    list-style-type: none;
+    color: rgb(1, 17, 52);
+    margin-top: 10px;
+}
+
+
+.ingr .ingr_text button{
+    margin-right: 15px;
+    background-color: rgb(10, 111, 178);
+    color: white;
+    border: 3px solid transparent;
+    transition-duration: 0.5s;
+    height: 35px;
+    width: 120px;
+    font-size: 17px;
+}
+
+.ingr .ingr_text button:hover{
+    background-color: white ;
+    border: 3px solid rgb(10, 111, 178);
+    color:  rgb(10, 111, 178);
+    transition: ease-in-out;
+    transition-duration: 0.35s;
+}
+
+.ingr .ingr_text button a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+
+.ingr .ingr_text button a:hover{
+    color: rgb(10, 111, 178);
+
+}
+
+
+
+
+
+
+/* watch section */
+
+.watch{
+    background-image: url(./../../assets/pexels-ella-olsson-1640777.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    margin-top: 10px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.watch .row{
+    width: 50px 0;
+}
+
+.watch h2{
+    width: 100%;
+}
+
+/* 
+
+.watch p{
+    margin: 0;
+}
+*/
+.watch a{
+    text-decoration: none;
+    color: rgb(20, 53, 125);
+}
+
+.watch a:hover{
+    color: rgb(10, 111, 178);
+    font-weight: 450;
+}
+
+
+
+
+
+

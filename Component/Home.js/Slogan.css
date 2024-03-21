@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+.slogan{
+    padding: 100px 0;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.text{
+    color: rgb(1, 17, 52);
+}
+
+.text h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 45px;
+    font-size: 50px;
+    width: 80%;
+}
+
+.text p{
+    margin: 30px 0;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+.text button{
+    margin-right: 15px;
+    background-color: rgb(10, 111, 178);
+    color: white;
+    border: 3px solid transparent;
+    transition-duration: 0.5s;
+    height: 35px;
+    width: 120px;
+    font-size: 17px;
+}
+
+.text button:hover{
+    background-color: white ;
+    border: 3px solid rgb(10, 111, 178);
+    color:  rgb(10, 111, 178);
+    transition: ease-in-out;
+    transition-duration: 0.35s;
+}
+
+.text button a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.text button a:hover{
+    color: rgb(10, 111, 178);
+}

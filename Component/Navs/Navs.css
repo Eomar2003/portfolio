@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    color: rgb(74, 127, 226) !important;
+    /* font-family: "Molle" !important; */
+    font-family: "Playball", cursive;
+    font-weight: 400;
+    font-style: normal;
+    /* font-style: italic; */
+    font-size: 35px !important;
+}
+
+nav{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    position: fixed;
+    
+}
+
+nav a{
+    color: rgb(50, 112, 247) !important ;
+    font-weight: 700 !important;
+}
+
+nav a:hover{
+    color: rgb(65, 119, 236) !important ;
+}
